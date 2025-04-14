@@ -20,9 +20,6 @@ if ! pgrep -f "localstack" > /dev/null; then
     sleep 10
 fi
 
-# Créer le répertoire du projet s'il n'existe pas
-mkdir -p wordpress-aws
-cd wordpress-aws
 
 # Vérifier que les services nécessaires sont accessibles
 echo "Vérification des services LocalStack..."
