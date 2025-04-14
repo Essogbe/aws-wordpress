@@ -51,7 +51,8 @@ Clonez ce dépôt et naviguez dans le répertoire du projet:
 
 ```bash
 git clone <repository-url>
-cd wordpress-aws-terraform
+pip install awscli-local[ver1]
+cd aws-wordpress
 ```
 
 ### 2. Test avec LocalStack (optionnel mais recommandé)
