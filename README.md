@@ -51,6 +51,7 @@ Clonez ce dépôt et naviguez dans le répertoire du projet:
 
 ```bash
 git clone <repository-url>
+docker pull localstack/localstack-pro:latest
 pip install awscli-local[ver1]
 cd aws-wordpress
 ```
@@ -60,8 +61,8 @@ cd aws-wordpress
 Pour tester le déploiement localement avant de l'exécuter sur AWS:
 
 ```bash
-chmod +x test-localstack.sh
-./test-localstack.sh
+chmod +x run.sh
+./run.sh
 ```
 
 ### 3. Personnalisation
